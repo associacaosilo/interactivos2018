@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+  <body>
+    {% include menu.html %}
+    <div class="main-div">
+      <section class="list-wrapper">
+        <a href="{{ site.baseurl }}/">
+          <h2>{{ site.title }}: {{ site.subtitle }}</h2>
+        </a>
+      </section>
+      <section class="content-text">
+        {% unless page.path contains '_pages' %}
+          <h2 class="post-title">{{ page.title }}</h2>
+          {% include post-date.html %}
+        {% endunless %}
+        {% if page.cover %}
+          <img src="{{ site.baseurl }}/{{ page.cover }}">
+        {% endif %}
+        {{ content }}
+        {% if page.swipebox %}
+          {% include swipebox.html prefix=page.swipebox %}
+        {% endif %}
+        {% include share.html %}
+      </section>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

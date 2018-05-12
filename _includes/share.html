@@ -1,10 +1,6 @@
 {% assign thisURL = site.url | append: site.baseurl | append: page.url %}
 <div class="share-container">
-  {% assign share = 'Compartilhe' %}
-  {% if page.lang == 'en' %}
-    {% assign share = 'Share' %}
-  {% endif %}
-  <h3 class="share-title">{{ share }}:</h3>
+  <h3 class="share-title">Compartilhe:</h3>
   <div class="share-icon-container">
     <a title="{{ share }}: Facebook" target="_blank"
      href="https://www.facebook.com/sharer/sharer.php?u={{ thisURL }}">
