@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+  <body>
+    {% include menu.html %}
+    <div class="main-div">
+      <section class="list-wrapper">
+        <a href="{{ site.baseurl }}/">
+          <h2>{{ site.title }}: {{ site.subittle }}</h2>
+        </a>
+      </section>
+      <section class="content-text">
+        <h2>{{ page.title }}</h2>
+        <img src="{{ site.baseurl }}/{{ page.cover }}">
+        {{ content }}
+        {% if page.link-text %}
+          <a href="{{ site.baseurl }}{{ page.link }}" target="_blank">
+            [ {{ page.link-text }} ]
+          </a>
+        {% endif %}
+      </section>
+      <section class="list-wrapper">
+        <h2>Posts</h2>
+        <div class="home-list">
+          {% assign slug = page.permalink | replace: '/', '' %}
+          {% assign posts = site.posts | where:"project", slug %}
+          {% for post in posts %}
+            {% assign pCover = site.baseurl | append: '/' | append: post.cover %}
+            <a class="list-item" href="{{ site.baseurl }}{{ post.url }}">
+              <div class="list-item-image" style="background-image: url('{{ pCover }}');">
+                <div class="list-item-title">{{ post.title }}</div>
+              </div>
+            </a>
+          {% endfor %}
+        </div>
+      </section>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
