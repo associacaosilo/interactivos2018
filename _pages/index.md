@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Interactivos?\'18
+title: Interactivos?'18
 subtitle: Tecnosfera Rural
 permalink: /
 ---
