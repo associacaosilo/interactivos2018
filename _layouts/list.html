@@ -26,7 +26,7 @@
         <h2>Posts</h2>
         <div class="home-list">
           {% assign slug = page.permalink | replace: '/', '' %}
-          {% assign posts = site.posts | where:"project", slug %}
+          {% assign posts = site.posts | where:"category", slug %}
           {% for post in posts %}
             {% assign pCover = site.baseurl | append: '/' | append: post.cover %}
             <a class="list-item" href="{{ site.baseurl }}{{ post.url }}">
@@ -36,6 +36,14 @@
             </a>
           {% endfor %}
         </div>
+      </section>
+      <section class="list-wrapper">
+        <h2>Pessoas</h2>
+        {% for person in page.people %}
+          <div>
+            <a href="{{ person.url }}" target="_blank">{{ person.name }}</a>
+          </div>
+        {% endfor %}
       </section>
     </div>
     {% include footer.html %}

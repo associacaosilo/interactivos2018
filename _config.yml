@@ -6,7 +6,7 @@ subtitle: Tecnosfera Rural
 url: https://interactivos.silo.org.br
 baseurl: '/2018'
 silo_url: https://silo.org.br
-permalink: :title/
+permalink: :categories/:title/
 include: ['_pages']
 
 # Build settings
