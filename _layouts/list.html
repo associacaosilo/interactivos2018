@@ -24,7 +24,7 @@
       </section>
       <section class="list-wrapper">
         <h2>Posts</h2>
-        <div class="home-list">
+        <div class="post-list">
           {% assign slug = page.permalink | replace: '/', '' %}
           {% assign posts = site.posts | where:"category", slug %}
           {% for post in posts %}
