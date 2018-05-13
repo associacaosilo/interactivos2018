@@ -383,6 +383,28 @@ a {
   }
 }
 
+.people-list {
+  margin: 0;
+}
+
+.project-person {
+  list-style-type: none;
+
+  a {
+    color: #000;
+    font-size: 20px;
+    font-family: "Font3";
+    text-decoration: underline;
+
+    &:hover {
+      color: $LINK-COLOR-HOVER;
+    }
+  }
+}
+.project-person + .project-person {
+  margin-top: 5px;
+}
+
 .home-list {
   justify-content: center;
 
