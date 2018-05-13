@@ -220,6 +220,10 @@ a {
   border-bottom: 2px solid #222;
 }
 
+.main-title {
+  border-bottom: 3px $TEXT-COLOR solid;
+}
+
 .post-title, .post-date {
   font-family: $FONT-TITLE;
   font-weight: bold;
