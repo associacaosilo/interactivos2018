@@ -222,6 +222,17 @@ a {
 
 .main-title {
   border-bottom: 3px $TEXT-COLOR solid;
+  margin-bottom: 0;
+}
+
+.breadcrumb-item {
+  text-decoration: underline;
+  font-weight: 900;
+}
+.breadcrumb-selected {
+  text-decoration: none;
+  color: $LINK-COLOR-HOVER;
+  font-weight: 400;
 }
 
 .post-title, .post-date {
@@ -259,6 +270,9 @@ a {
   }
   section.content-container {
     margin-top: 25px;
+  }
+  section.breadcrumbs-container {
+    margin-top: 8px;
   }
 
   content {
