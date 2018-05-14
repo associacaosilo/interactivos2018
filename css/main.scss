@@ -104,10 +104,14 @@ a {
   left: -100vw;
   @include media-query(DESKTOP) {
     left: 0;
+    top: -155px;
   }
 }
 .menu-show {
   left: 0;
+  @include media-query(DESKTOP) {
+    top: 0;
+  }
 }
 
 .menu-section {
@@ -139,6 +143,9 @@ a {
 }
 
 #menu {
+  position: fixed;
+  z-index: 10;
+  transition: top $TRANSITION-PERIOD linear;
   padding: 30px 0;
   box-sizing: border-box;
   background-color: $MENU-BACKGROUND-COLOR;
@@ -150,12 +157,20 @@ a {
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 30px 12% 30px 8%;
+    padding: 30px 12% 0 8%;
   }
 
   .menu-title {
     width: 25%;
+  }
+
+  #menu-button {
+    width: 100%;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 24px;
   }
 
   .menu-container {
@@ -241,13 +256,18 @@ a {
   margin: 0 auto;
   width: 60%;
   text-align: center;
+  transition: color $TRANSITION-PERIOD linear;
   color: $MENU-TEXT-COLOR;
+
   @include media-query(DESKTOP) {
     border-bottom: 3px $TEXT-COLOR solid;
-    color: $TEXT-COLOR;
+    color: $LINK-COLOR;
     text-align: left;
     margin-top: 20px;
     width: 100%;
+    &:hover {
+      color: $LINK-COLOR-HOVER;
+    }
   }
 }
 
@@ -288,7 +308,7 @@ a {
 
   @include media-query(DESKTOP) {
     width: 100%;
-    margin: $RESPONSIVE-SPACING auto;
+    margin: $MENU-HEIGHT auto $RESPONSIVE-SPACING;
   }
 
   section + section {
@@ -297,8 +317,17 @@ a {
   section.content-container {
     margin-top: 25px;
   }
+  section.post-content-container {
+    margin-top: 25px;
+    @include media-query(DESKTOP) {
+      margin-top: 45px;
+    }
+  }
   section.breadcrumbs-container {
-    margin-top: 8px;
+    margin-top: -16px;
+    @include media-query(DESKTOP) {
+      margin-top: 8px;
+    }
   }
 
   content {
