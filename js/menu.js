@@ -1,12 +1,12 @@
-function showMenu() {
-  document.getElementById('menu-retratil').classList.remove("menu-hide");
-  document.getElementById('menu-retratil').classList.add("menu-show");
+function showMenuMobile() {
+  document.getElementById('menu-retratil-mobile').classList.remove("menu-hide");
+  document.getElementById('menu-retratil-mobile').classList.add("menu-show");
 }
 
-function hideMenu() {
-  document.getElementById('menu-retratil').classList.remove("menu-show");
-  document.getElementById('menu-retratil').classList.add("menu-hide");
+function hideMenuMobile() {
+  document.getElementById('menu-retratil-mobile').classList.remove("menu-show");
+  document.getElementById('menu-retratil-mobile').classList.add("menu-hide");
 }
 
-document.getElementById('show-menu').onclick = showMenu;
-document.getElementById('hide-menu').onclick = hideMenu;
+document.getElementById('show-menu-mobile').onclick = showMenuMobile;
+document.getElementById('hide-menu-mobile').onclick = hideMenuMobile;

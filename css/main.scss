@@ -56,12 +56,13 @@ a {
   display: block;
   width: 100%;
   z-index: 10;
-  position: relative;
+  position: fixed;
+  top: 0;
   padding: 30px 0;
   text-align: center;
   background-color: $MENU-BACKGROUND-COLOR;
 
-  #menu-retratil {
+  #menu-retratil-mobile {
     position: absolute;
     z-index: 20;
     width: 100%;
@@ -76,6 +77,10 @@ a {
     left: 2 * $RESPONSIVE-SPACING;
     top: 30px;
     font-size: 24px;
+    width: 32px;
+    img {
+      width: 100%;
+    }
   }
 
   .hide-menu {
@@ -127,6 +132,10 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  margin-bottom: 10px;
+  @include media-query(DESKTOP) {
+    margin-bottom: 0;
+  }
 }
 
 #menu {
@@ -220,9 +229,26 @@ a {
   border-bottom: 2px solid #222;
 }
 
+.title-section {
+  display: none;
+  @include media-query(DESKTOP) {
+    display: block;
+  }
+}
+
 .main-title {
-  border-bottom: 3px $TEXT-COLOR solid;
-  margin-bottom: 0;
+  border-bottom: 3px $MENU-TEXT-COLOR solid;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  color: $MENU-TEXT-COLOR;
+  @include media-query(DESKTOP) {
+    border-bottom: 3px $TEXT-COLOR solid;
+    color: $TEXT-COLOR;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+  }
 }
 
 .breadcrumb-item {
@@ -258,7 +284,7 @@ a {
   display: block;
   width: 80%;
   box-sizing: border-box;
-  margin: $RESPONSIVE-SPACING auto;
+  margin: $MENU-MOBILE-HEIGHT auto $RESPONSIVE-SPACING;
 
   @include media-query(DESKTOP) {
     width: 100%;
