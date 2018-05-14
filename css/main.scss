@@ -252,16 +252,18 @@ a {
 }
 
 .main-title {
-  border-bottom: 3px $MENU-TEXT-COLOR solid;
+  border-bottom: none;
   margin: 0 auto;
   width: 60%;
   text-align: center;
   transition: color $TRANSITION-PERIOD linear;
   color: $MENU-TEXT-COLOR;
+  font-size: 1.1em;
 
   @include media-query(DESKTOP) {
     border-bottom: 3px $TEXT-COLOR solid;
     color: $LINK-COLOR;
+    font-size: 1.5em;
     text-align: left;
     margin-top: 20px;
     width: 100%;
