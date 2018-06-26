@@ -15,9 +15,6 @@
           {% assign projets = site.pages | where:"layout", "list" %}
           {% for projet in projets %}
             {% assign pCover = site.baseurl | append: '/' | append: projet.cover %}
-            {% if projet.cover_x %}
-              {% assign pCover = site.baseurl | append: '/' | append: projet.cover_x %}
-            {% endif %}
             <a class="list-item" href="{{ site.baseurl }}{{ projet.url }}">
               <div class="list-item-image"
                    style="background-image: url('{{ pCover }}');">

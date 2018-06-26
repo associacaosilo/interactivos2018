@@ -25,9 +25,6 @@
           {% assign posts = site.posts | where:"category", slug %}
           {% for post in posts %}
             {% assign pCover = site.baseurl | append: '/' | append: post.cover %}
-            {% if post.cover_x %}
-              {% assign pCover = site.baseurl | append: '/' | append: post.cover_x %}
-            {% endif %}
             <a class="list-item" href="{{ site.baseurl }}{{ post.url }}">
               <div class="list-item-image" style="background-image: url('{{ pCover }}');">
                 <div class="list-item-title">{{ post.title }}</div>

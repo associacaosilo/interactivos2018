@@ -3,7 +3,6 @@ layout: list
 title: Full Compost
 proponent: Oscar Bracamonte | Santa Fé, Argentina
 cover: media/images/covers/fullcompost.jpg
-cover_x: media/images/covers/fullcompost_x.jpg
 permalink: /fullcompost/
 people:
   - name: Keila Zaché
