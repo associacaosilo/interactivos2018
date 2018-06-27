@@ -5,7 +5,17 @@ proponent: Andres Mauricio Moncayo | Chachagüí, Nariño, Colombia
 cover: media/images/covers/biofertilizantes.jpg
 permalink: /biofertilizantes/
 people:
+  - name: Bárbara
+    url: #
+  - name: Andres Maurício
+    url: #
+  - name: Emanuel Carneiro
+    url: https://www.facebook.com/emanuel.carneiro.71
   - name: Jessica
+    url: #
+  - name: Karina Duarte
+    url: https://www.instagram.com/duarte_ka/
+  - name: Luis Eduardo
     url: #
   - name: Naiara
     url: https://www.instagram.com/souverdemato/

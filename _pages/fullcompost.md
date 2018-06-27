@@ -5,10 +5,18 @@ proponent: Oscar Bracamonte | Santa Fé, Argentina
 cover: media/images/covers/fullcompost.jpg
 permalink: /fullcompost/
 people:
+  - name: Bárbara
+    url: #
+  - name: Fernanda Tosta
+    url: https://www.fernandatosta.com/
+  - name: Karina Duarte
+    url: https://www.instagram.com/duarte_ka/
   - name: Keila Zaché
     url: https://www.facebook.com/keila.zache
   - name: Mateus Fontes
     url: https://www.facebook.com/mateus.fontes.31
+  - name: Oscar Bracamonte
+    url: https://www.facebook.com/oscar.bracamonte.169
   - name: Tainah La Porta Di Tomaso
     url: https://www.facebook.com/tainahlaporta
 ---
