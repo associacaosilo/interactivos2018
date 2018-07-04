@@ -1,6 +1,6 @@
 ---
 title: Diário
-cover: media/images/germinacao/germinacao_00_00.jpg
+cover: media/images/germinacao/GERMINACAO_00_00.jpg
 category: germinacao
 ---
 **QUINTA - 14/06 - DIA 1**  
