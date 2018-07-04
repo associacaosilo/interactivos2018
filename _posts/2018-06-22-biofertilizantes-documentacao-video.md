@@ -1,5 +1,5 @@
 ---
-title: Documentação em Vídeo
+title: "Biofertilizantes: Vídeo"
 cover: media/images/biofertilizantes/BIOFERT_2206_06.jpg
 category: biofertilizantes
 swipebox: BIOFERT_2206_0
