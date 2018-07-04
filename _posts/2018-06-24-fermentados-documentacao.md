@@ -1,6 +1,6 @@
 ---
 title: Site de Documentação
-cover: media/images/fermentados/FERMENTADOS_4946.jpg
+cover: media/images/fermentados/FERMENTADOS_Site_4946.jpg
 category: fermentados
 swipebox: FERMENTADOS_20180622_160
 ---
