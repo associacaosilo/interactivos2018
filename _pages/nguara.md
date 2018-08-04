@@ -1,6 +1,6 @@
 ---
 layout: list
-title: NGUARA - Guia para a construção de abrigos animais e humanos
+title: Nguara - Abrigo Sustentável
 proponent: Daniel da Silva Almeida, Tommi Ednardo Costa e Gabriela di Sessa | Resende, Rio de Janeiro, Brasil
 cover: media/images/covers/nguara.jpg
 permalink: /nguara/
@@ -22,4 +22,4 @@ people:
   - name: Tommi
     url: https://www.facebook.com/oka.timburiba
 ---
-Elaboração de um manual de soluções práticas para assentamentos humanos ou abrigo animal utilizando técnicas ancestrais (a exemplos dos Nguara Puris) e contemporâneas (biodinâmica, permacultura, sintropia) enfatizando o uso de materia prima abundante como o bambu. O objetivo é fazer uma compilação de tecnologias que podem ser úteis na criação desses abrigos agrupadas em um guia para incentivar ao uso de tecnologias sustentáveis para a criação de assentamentos humanos rurais. Como protótipo desenvolvemos um galinheiro e um pequeno abrigo temporário.
+Os abrigos Nguara são estruturas multifuncionais e sustentáveis que garantem conforto e condições para o descanso, banho e alimentação. Ideais para bangalôs em pousadas, parques ou a beira mar. Podem ser abrigos para áreas rurais ou abrigos de emergência. O design Nguara é inspirado no conhecimento dos povos nativos das Américas e o bambu é utilizado como principal material. A experiência garante ao usuário conforto e impacto ambiental mínimo, contribuindo para a diminuição da pegada ecológica.
