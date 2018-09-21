@@ -15,7 +15,9 @@
           {% include post-date.html %}
         {% endunless %}
         {% if page.cover %}
-          <img src="{{ site.baseurl }}/{{ page.cover }}">
+          {% unless page.noheader %}
+            <img src="{{ site.baseurl }}/{{ page.cover }}">
+          {% endunless %}
         {% endif %}
         {{ content }}
         {% if page.swipebox %}
