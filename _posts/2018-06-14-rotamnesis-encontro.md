@@ -1,6 +1,6 @@
 ---
 title: ENCONTRO
-cover: media/images/rotamnesis/ROTA_01_Encontro_01.jpg
+cover: media/images/rotamnesis/ROTA_01_Encontro_05.jpg
 noheader: true
 category: rotamnesis
 swipebox: ROTA_01_Encontro_0

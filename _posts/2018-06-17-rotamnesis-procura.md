@@ -1,6 +1,6 @@
 ---
 title: PROCURA
-cover: media/images/rotamnesis/ROTA_04_Procura_01.jpg
+cover: media/images/rotamnesis/ROTA_04_Procura_03.jpg
 noheader: true
 category: rotamnesis
 swipebox: ROTA_04_Procura_
