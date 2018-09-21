@@ -1,6 +1,6 @@
 ---
 title: SINESTESIAS
-cover: media/images/rotamnesis/ROTA_02_Sinestesias_03.jpg
+cover: media/images/rotamnesis/ROTA_02_Sinestesias_23.jpg
 noheader: true
 category: rotamnesis
 swipebox: ROTA_02_Sinestesias_
