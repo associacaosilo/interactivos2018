@@ -26,4 +26,4 @@ people:
   - name: Vitor Barão
     url: https://www.instagram.com/vitorbarao/
 ---
-Criar uma estação de Fermentação de alimentos e bebidas fazendo um intercâmbio de experimentos e técnicas através do cultivo, cuidado e observação dos microbiomas dos alimentos em processo fermentativo.Trabalhar com a transformação de excedentes de hortas e plantas alimentícias não convensionais em alimentos medicinais e probióticos artesanais. Como resultado fizemos uma [PUBLICAÇÃO ON-LINE](https://acozinhanomade.ml/){:target="_blank"} com receitas a base de fermentaçao.
+Criar uma estação de Fermentação de alimentos e bebidas fazendo um intercâmbio de experimentos e técnicas através do cultivo, cuidado e observação dos microbiomas dos alimentos em processo fermentativo.Trabalhar com a transformação de excedentes de hortas e plantas alimentícias não convencionais em alimentos medicinais e probióticos artesanais. Como resultado fizemos uma [PUBLICAÇÃO ON-LINE](https://acozinhanomade.ml/){:target="_blank"} com receitas a base de fermentaçao.
